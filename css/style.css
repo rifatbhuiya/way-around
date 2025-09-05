@@ -476,10 +476,13 @@ body {
     -moz-transition: all ease .3s;
     -ms-transition: all ease .3s;
     -o-transition: all ease .3s;
+    border: 1px solid transparent;
 }
 
 .banner-action .btn a:hover {
-    color: #000;
+    color: #FF5D00;
+    background-color: #fff;
+    border: 1px solid #FF5D00;
 }
 
 /* Banner action area css end */
@@ -581,10 +584,13 @@ body {
     -moz-transition: all ease .3s;
     -ms-transition: all ease .3s;
     -o-transition: all ease .3s;
+    border: 1px solid transparent;
 }
 
 .accessories-content .btn a:hover {
-    color: #000;
+    color: #FF5D00;
+    background-color: #fff;
+    border: 1px solid #FF5D00;
 }
 
 /* Acessories area css end */
@@ -1141,6 +1147,7 @@ footer .copyright-text p a:hover {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    border: 1px solid transparent;
 }
 
 .form-content input:hover {
@@ -1149,11 +1156,11 @@ footer .copyright-text p a:hover {
 
 .form-content input:focus {
     background-color: #fff;
+    border: 1px solid #FF5D00;
 }
 
 .form-content textarea {
     width: 100%;
-    height: 160px;
     border: none;
     resize: none;
     padding: 4px 0 0 8px;
@@ -1168,6 +1175,7 @@ footer .copyright-text p a:hover {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    border: 1px solid transparent;
 }
 
 .form-content textarea:hover {
@@ -1176,6 +1184,7 @@ footer .copyright-text p a:hover {
 
 .form-content textarea:focus {
     background-color: #fff;
+    border: 1px solid #FF5D00;
 }
 
 .form-content input::placeholder {
